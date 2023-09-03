@@ -23,6 +23,8 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
             height: 50,
           ),
           CustomAppBar(
+            icon: Icons.check,
+            title: 'Edite',
           ),
           const SizedBox(
             height: 50,

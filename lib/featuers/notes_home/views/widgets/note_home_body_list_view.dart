@@ -12,7 +12,10 @@ class NoteHomeBodyView extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: [
-            const CustomAppBar(),
+             const CustomAppBar(
+              icon: Icons.search,
+               title: 'Notes',
+            ),
             const SizedBox(
               height: 30,
             ),
